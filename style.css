@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(140, 243, 140);
+}
+
+.flores-img {
+  width: 100px;
+  height: 100px;
+  
+}
+
+#img-circulo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#section-flores {
+  background-color: plum;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-top: 50px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#div-flores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#parte-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 20px ;
+}
+
+#circulo-parrafo {
+  display: flex;
+  background-color: white;
+}
+
+#parrafos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#Fetching-h1{
+  margin: 0;
+}
+
+#photo-p{
+  margin: 0;
+  color: gray;
+  text-transform: capitalize;
+  
+}
+
+#like-p{
+  margin: 0;
+  color: gray;
+  text-transform: capitalize;
+}
+
+#boton{
+  width: 300px;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(192, 179, 179);
+  border-radius: 5px;
+}
